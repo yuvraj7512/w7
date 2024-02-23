@@ -1,0 +1,71 @@
+/* Existing styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.doodle-image {
+    width: 500px;
+    height: 500px;
+    border: solid thick white;
+    box-shadow: #00000033 0 0 1rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#button1 {
+    background-color: #007bff;
+}
+
+#button1:hover {
+    background-color: #0056b3;
+}
+
+#button2 {
+    background-color: #28a745;
+}
+
+#button2:hover {
+    background-color: #1e7e34;
+}
+
+#button3 {
+    background-color: #ffc107;
+}
+
+#button3:hover {
+    background-color: #e0a800;
+}
+
+/* Styles for the fourth button */
+#button4 {
+    background-color: #17a2b8; /* A teal color */
+}
+
+#button4:hover {
+    background-color: #138496; /* A darker shade of teal for hover effect */
+}

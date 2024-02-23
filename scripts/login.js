@@ -1,0 +1,1 @@
+// This script takes care of the login action
